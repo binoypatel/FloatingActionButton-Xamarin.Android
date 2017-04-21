@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAB.Bind-Xamarin.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAB.Sample", "FAB.Sample\FAB.Sample.csproj", "{D4B5389D-C310-4BB3-AC4B-48BB1182ACB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAB.Bind-Xamarin.Android.Extensions", "FAB.Bind-Xamarin.Android.Extensions\FAB.Bind-Xamarin.Android.Extensions.csproj", "{E99BADB9-5C85-400A-96CE-A1D3D1B2ECDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{D4B5389D-C310-4BB3-AC4B-48BB1182ACB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B5389D-C310-4BB3-AC4B-48BB1182ACB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B5389D-C310-4BB3-AC4B-48BB1182ACB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99BADB9-5C85-400A-96CE-A1D3D1B2ECDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99BADB9-5C85-400A-96CE-A1D3D1B2ECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99BADB9-5C85-400A-96CE-A1D3D1B2ECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99BADB9-5C85-400A-96CE-A1D3D1B2ECDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -26,6 +32,8 @@ Global
 		$1.inheritsSet = VisualStudio
 		$1.inheritsScope = text/plain
 		$1.scope = text/x-csharp
+		$1.FileWidth = 80
+		$1.TabsToSpaces = True
 		$0.CSharpFormattingPolicy = $2
 		$2.IndentSwitchBody = True
 		$2.IndentBlocksInsideExpressions = True
@@ -54,23 +62,6 @@ Global
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
-		$2.IndentSwitchSection = True
-		$2.NewLinesForBracesInProperties = True
-		$2.NewLinesForBracesInAccessors = True
-		$2.NewLinesForBracesInAnonymousMethods = True
-		$2.NewLinesForBracesInControlBlocks = True
-		$2.NewLinesForBracesInAnonymousTypes = True
-		$2.NewLinesForBracesInObjectCollectionArrayInitializers = True
-		$2.NewLinesForBracesInLambdaExpressionBody = True
-		$2.NewLineForElse = True
-		$2.NewLineForCatch = True
-		$2.NewLineForFinally = True
-		$2.NewLineForMembersInObjectInit = True
-		$2.NewLineForMembersInAnonymousTypes = True
-		$2.NewLineForClausesInQuery = True
-		$2.SpacingAfterMethodDeclarationName = False
-		$2.SpaceAfterMethodCallName = False
-		$2.SpaceBeforeOpenSquareBracket = False
 		version = 1.6.4.0
 	EndGlobalSection
 EndGlobal
